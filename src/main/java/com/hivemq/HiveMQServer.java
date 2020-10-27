@@ -100,6 +100,7 @@ public class HiveMQServer {
 
         final long startTime = System.nanoTime();
 
+
         final MetricRegistry metricRegistry = new MetricRegistry();
         metricRegistry.addListener(new MetricRegistryLogger());
 
